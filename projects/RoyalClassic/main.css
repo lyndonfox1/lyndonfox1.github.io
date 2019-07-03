@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+}
+
+/* Text  */
+
+h1 {
+    margin: 0 0 1em 0;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+h2 {
+    margin: 0 0 .5em 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+h3 {
+    margin: 0 0 .5em 0;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+h4 {
+    margin: 0 0 1.5em 0;
+    font-size: 1em;
+    font-weight: 700;
+}
+p {
+    margin: 0 0 1em 0;
+}
+
+/*Header */
+
+header {
+    width: 100%vw;
+    height: 550px;
+    background: url(/images/sergei-akulich-39909-unsplash.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative;
+}
+.logo {
+  text-align: center;
+}
+.crown {
+    padding: 35px 0 15px 0;
+}
+.logo h1 {
+   margin: 0 0 .3em 0;
+
+}
+
+/*navgation*/
+
+
+.main-menu {
+    list-style-type: none;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 60px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #000;
+    text-align: right;
+}
+li a:hover {
+    opacity: 0.7;
+}
+.navagation {
+    /* position: fixed; */
+    margin: 0 auto;
+    width: 100%;
+} 
+ul {
+    margin: 0 auto;
+    width: 913px;
+}
+/* section-main */
+
+/* footer */
+
+/*media*/
+
+@media screen and (min-width:575px) {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 4px solid #F0a202;
+       
+
+    }
+    li {
+        display: 1 0 auto;
+        text-align: left;
+    }
+    .first {
+        background-color: #f0a202;
+        color: #fff
+    }
+}

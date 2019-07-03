@@ -1,0 +1,8 @@
+{
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "bulma-extensions": "^2.2.2"
+  }
+}

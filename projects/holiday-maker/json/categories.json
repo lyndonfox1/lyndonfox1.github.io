@@ -1,0 +1,24 @@
+{
+    "categories": [{
+            "id": 0,
+            "title": "Hotel",
+            "slug": "hotel"
+        },
+        {
+            "id": 1,
+            "title": "Motel",
+            "slug": "motel"
+        },
+        {
+            "id": 2,
+            "title": "House",
+            "slug": "house"
+        },
+        {
+            "id": 3,
+            "title": "Hostel",
+            "slug": "hostel"
+        }
+
+    ]
+}

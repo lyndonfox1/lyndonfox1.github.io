@@ -1,0 +1,31 @@
+// colours
+// Set your brand colors
+$purple: rgb(77, 0, 73);
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$black: rgb(0, 0, 0);
+$dark-orange: darkorange;
+$dark-blue: darkblue;
+$dark-orange-black: rgb(32, 17, 0);
+$navy-blue: rgba(2, 29, 151, 0.767);
+$blue-white: rgb(241, 241, 241);
+$shadow: #888888;
+$white: rgb(255, 255, 255);
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito",
+sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;

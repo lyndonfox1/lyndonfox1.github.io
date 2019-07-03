@@ -1,0 +1,84 @@
+@include mq("tablet-wide", 'max') {
+    .main-header {
+        width: 100%;
+        font-size: 40px;
+        padding: 30px 10px 0px 10px;
+    }
+
+    .logo {
+        margin-left: 50px;
+        width: 70px;
+        float: left;
+    }
+
+    .where {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .details {
+        width: 100%;
+    }
+
+    .columns {
+        width: 100%;
+    }
+}
+
+@include mq("tablet", 'max') {
+    .main-header {
+        width: 100%;
+        font-size: 40px;
+        padding: 30px 10px 0px 10px;
+    }
+
+    .logo {
+        margin-left: 50px;
+        width: 70px;
+        float: left;
+    }
+
+    .where {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    input {
+        padding: 8px 16px;
+        margin: 12px;
+    }
+
+    .details-border {
+        border-left: 0 solid;
+    }
+}
+
+@include mq('phone-wide', 'max') {
+    .main-header {
+        padding: 25px 10px 0px 10px;
+        width: 100%;
+        font-size: 30px;
+        width: 400px;
+    }
+
+    .logo {
+        margin-left: 50px;
+        width: 60px;
+        float: left;
+    }
+
+    .where {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    input {
+        padding: 5px 10px;
+        margin: 10px;
+    }
+}
+
+.to-left {
+    width: 400px;
+    padding-left: 100px;
+}

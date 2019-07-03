@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Holiday Maker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bulma-calendar/dist/css/bulma-calendar.min.css">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="wapper">
+        <ul class="main-nav">
+            <li>
+                <a data-screen="0" class="screen-link active" href="#"></a>
+            </li>
+            <li>
+                <a data-screen="1" class="screen-link" href="#"></a>
+            </li>
+            <!-- <li>
+                <a data-screen="2" class="screen-link" href="#"></a>
+            </li> -->
+        </ul>
+        <main class="wrapper">
+            <div id="0" class="screen active">
+                <header class="hero is-fullheight">
+                    <div>
+
+                        <div class="logo-contaner">
+                            <img src="/images/final-logo.png" class="logo" alt="logo">
+                            <h1 class="main-header">Holiday Maker</h1>
+                            <h4 class="tourism-nz">NEW ZEALAND TOURISM</h4>
+                        </div>
+
+                        <h3 class="statement">Holiday Maker your stress free holiday accommodation planner</h3>
+                        <div class="where ui-widget">
+                            <form onsubmit="return false">
+                                <label for="city-town"></label>
+                                <input id="city-town" type="text" placeholder=" City / Town" value="">
+                                <input id="avnumber-of-guest" type="number" placeholder="Guests" value="">
+                                <!-- <input id="phone-number" type="text" placeholder="Phone number" value=""> -->
+                                <!-- </form> -->
+                            </form>
+                        </div>
+                        <div>
+                            <input id="submitBtn" type="submit" value="Submit">
+                        </div>
+
+                        <div>
+                            <input class="start-date" type="date">
+                            <input class="end-date" type="date">
+                        </div>
+
+                        <!-- <button class="days-btn" type="button">Calendar Submit</button> -->
+
+
+
+                    </div>
+                </header>
+
+                <div class="details">
+                    <ul class="columns is-two-thirds-tablet details-1">
+                        <li class="column details-border-1 category-list">
+                            <!-- <a>Hotel</a> -->
+                        </li>
+                        <!-- <li class="column details-border-1 category-list">
+                            <a>Motel</a>
+                        </li>
+                        <li class="column details-border-1 category-list">
+                            <a>House</a>
+                        </li>
+                        <li class="column details-border-1 category-list">
+                            <a>Hostel</a>
+                        </li>
+                        <li class="details-border-1">
+
+                        </li> -->
+                    </ul>
+                </div>
+
+
+
+
+                <div class="clearfix line-up section-1 accommodation-list">
+
+                </div>
+
+                <div class="is-divider" data-content="Holiday Maker"></div>
+
+                <footer class="">
+                    <section class="section-footer columns">
+                        <div class="social-footer column">
+                            <span class="center">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                        </div>
+                        <div class="social-footer column">
+                            <span class="center">
+                                <i class="fab fa-linkedin-in"></i>
+                            </span>
+                        </div>
+                        <div class="social-footer column">
+                            <span class="center">
+                                <i class="fab fa-instagram"></i>
+                            </span>
+                        </div>
+                        <div class="social-footer column">
+                            <span class="center">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                        </div>
+                    </section>
+                    <div class="columns">
+
+                        <div class="logo-contaner-2">
+                            <img src="/images/final-logo.png" class="logo-2" alt="logo">
+                            <h1 class="main-header">Holiday Maker</h1>
+                        </div>
+
+                    </div>
+                    <p class="copyright center">&copy; Copyright 2018 Holiday Maker Ltd - Made with &hearts; in
+                        Christchurch</p>
+                </footer>
+            </div>
+            <div id="1" class="screen section-2">
+                <button id="back-btn">Go back</button>
+                <div>
+                    <div class="logo-contaner">
+                        <img src="/images/final-logo.png" class="logo" alt="logo">
+                        <h1 class="main-header">Holiday Maker</h1>
+                        <h4 class="tourism-nz">NEW ZEALAND TOURISM</h4>
+                    </div>
+                </div>
+                <div>
+                    <img id="accommodation-imageLargeUrl" src="/images/bed.PNG" class="stay-hero" alt="main-image">
+                </div>
+                <section>
+
+                    <div class="details">
+                        <div class="columns details-1">
+                            <div class="column">
+                                <h1>Details</h1>
+                            </div>
+                            <div class="column">
+                                <h1 class="details-border">Map</h1>
+                            </div>
+                            <div class="column">
+                                <h1 class="details-border">Reviews</h1>
+                            </div>
+                            <div class="column">
+                                <h1 class="details-border">Amenities</h1>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+
+
+                <div class="columns">
+
+                    <div class="is-3 see">
+
+                        <h2 class="to-left" id="accommodation-title"></h2>
+                        <h3 class="to-left" id="accommodation-type"></h3>
+                        <h4 class="to-left" id="accommodation-price"></h4>
+                        <h4 class="to-left" id="accommodation-howMany"></h4>
+                        <h4 class="to-left" id="accommodation-meals"></h4>
+                        <h4 class="to-left" id="accommodation-starRate"></h4>
+
+                    </div>
+
+                    <div class="is-3 see">
+
+                        <h2 class="to-left" id="accommodation-information">Accommodation:</h2>
+                        <h3 class="to-left" id="accommodation-information-1">Region:</h3>
+                        <h4 class="to-left" id="accommodation-title-2">Price:</h4>
+                        <h4 class="to-left" id="accommodation-streetName">Guest number:</h4>
+                        <h4 class="to-left" id="accommodation-region">Meals:</h4>
+                        <h4 class="to-left" id="accommodation-region-1">Star rating range</h4>
+
+                    </div>
+
+                    <div class="is-3 see">
+
+                        <h2 class="to-left">Contact</h2>
+                        <h3 class="to-left">Holiday Maker</h3>
+                        <h4 class="to-left">46 burlywoods Rd</h4>
+                        <h4 class="to-left">Avonside</h4>
+                        <h4 class="to-left">Christchurch</h4>
+                        <h4 class="to-left">Ph 03 3454 543</h4>
+
+                    </div>
+                </div>
+                <div class="columns">
+
+                    <div class="column is-9">
+                        <h1 class="description">Description</h1>
+                        <p class="descript-p" id="accommodation-description">
+                            We are both retired &amp; lived in our family home for 9 years. It is warm, sunny, well
+                            maintained &amp; very comfortable. It is fitted with all of the comforts of home wifi,
+                            dishwasher,
+                            oven, ventilation, great indoor outdoor flow to deck &amp; lovely gardens. Situated in a
+                            quiet
+                            cul de sac with excellent onsite parking. Only 15 minutes from airport, a short walk to
+                            buses &amp;
+                            about 15 minutes drive into the city center.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="book-now"><a id="accommodation-imageUrl" href="" target="_blank">Book Now</a></div>
+            </div>
+
+        </main>
+    </div>
+
+
+    <script src="node_modules/bulma-calendar/dist/js/bulma-calendar.min.js"></script>
+    <script src="/js/main.js" async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+button {
+    background-color: $dark-orange;
+    padding: 10px 30px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#submitBtn {
+    background-color: $dark-orange;
+    padding: 10px 60px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+input {
+    padding: 12px 24px;
+    margin: 15px;
+}
+
+.submit {
+    text-align: center;
+    margin: 15px 0 30px 0;
+}
+
+.submit input {
+    padding: 10px 60px;
+    color: $black;
+    font-weight: bold;
+    background-color: $dark-orange;
+    border-radius: 10px;
+}
+
+.book-now {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 60px;
+    background-color: $dark-orange;
+    color: #000;
+    border-radius: 10px;
+    margin: 0 auto;
+}

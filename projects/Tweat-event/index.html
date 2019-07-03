@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eater|Love+Ya+Like+A+Sister" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container">
+        <ul class="main-nav">
+            <li>
+                <a data-screen="0" class="screen-link active" href="#">Take Your Pick</a>
+            </li>
+            <!-- <li>
+                <a data-screen="home" class="screen-link active" href="#">Some more choices</a>
+            </li> -->
+            <li>
+                <a data-screen="1" class="screen-link" href="#">Which Event</a>
+            </li>
+            <li>
+                <a data-screen="2" class="screen-link" href="#">How Many</a>
+            </li>
+        </ul>
+        <main class="content">
+            <div id="0" class="screen active">
+
+                <h1 class="main-heading">Select your Treat</h1>
+                <ul class="category-list"></ul>
+                <h3 class="select">Select whatever treat you would like whether ice cream, ice block or have some
+                    lollies</h3>
+                <!-- <div class="sweet-list"></div> -->
+                <ul class="image-list-small sweet-list"></ul>
+
+            </div>
+
+            <div id="1" class="screen">
+                <section class="quote-box">
+                    <h1>Event</h1>
+                    <h3>Which event would you like to go to</h3>
+                    <p>Parachute Music Festival,</p>
+                    <p>Select which event</p>
+                    <select name="" id="avEventDropdown"></select>
+                    <form action="">
+                        <input id="first-name" type="text" placeholder="First name" value="">
+                        <input id="last-name" type="text" placeholder="Last name" value="">
+                    </form>
+                    <div class="music-festival"></div>
+                    <form action="">
+                        <input id="email-address" type="text" placeholder="Email" value="">
+                        <input id="phone-number" type="text" placeholder="Phone number" value="">
+                    </form>
+                    <h3>How may are coming?</h3>
+                    <form action="">
+                        <h3>Adults</h3>
+                        <input id="number-of-people" type="number">
+                    </form>
+
+                    <h3>Administration fees</h3>
+                    <input id="submitBtn" type="submit" placeholder="" value="Submit">
+                </section>
+            </div>
+            <div id="2" class="screen">
+                <section class="quote-box">
+
+                    <h1>Clients Information</h1>
+                    <h2>Which Event: <span id="event-name-el"></span></h2>
+                    <h2>Clients Name: <span id="person-first-el"></span> <span id="person-last-el"></span></h2>
+                    <h2>Clients Email: <span id="person-email-el"></span></h2>
+                    <h2>Clients Phone Number: <span id="person-phone-number-el"></span></h2>
+                    <h2>How many are coming: <span class="how-many"></span></h2>
+                    <h1>Final Quote</h1>
+                    <!-- <button class="quote-button">Your Quote</button> -->
+                    <h2>Here is your quote:$ <span id="display-cost"></span></h2>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/main.js" async defer></script>
+
+
+</body>
+
+</html>

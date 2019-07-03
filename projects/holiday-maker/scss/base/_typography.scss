@@ -1,0 +1,40 @@
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+p {
+    color: $black;
+}
+
+h1 {
+    color: $dark-blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    color: $black;
+}
+
+h3 {
+    color: $dark-orange;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+}
+
+#to-the-url {
+    font-size: 85px;
+}

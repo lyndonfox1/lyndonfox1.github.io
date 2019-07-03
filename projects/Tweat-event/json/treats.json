@@ -1,0 +1,111 @@
+{
+    "treats": [{
+            "id": 0,
+            "imageUrl": "images/trumpetMms.png",
+            "title": "Trumpet",
+            "price": 3.50,
+            "categoryId": 0,
+            "gift": "Free"
+
+        },
+        {
+            "id": 1,
+            "imageUrl": "images/ChocBar.png",
+            "title": "Choc Bar",
+            "price": 2.50,
+            "categoryId": 0,
+            "gift": "Free"
+
+        },
+        {
+            "id": 2,
+            "imageUrl": "images/rockyRoad.png",
+            "title": "Rocky Road",
+            "price": 2.50,
+            "categoryId": 0,
+            "gift": "Free"
+
+        },
+        {
+            "id": 3,
+            "imageUrl": "images/frujuOrange.png",
+            "title": "Fruju",
+            "price": 1.50,
+            "categoryId": 0,
+            "gift": "Free"
+
+        },
+        {
+            "id": 4,
+            "imageUrl": "images/popsicleWatermelon.png",
+            "title": "Popsicle",
+            "price": 1.50,
+            "categoryId": 0,
+            "gift": "Free"
+
+        },
+        {
+            "id": 5,
+            "imageUrl": "images/jellyTip.png",
+            "title": "Jelly Tip",
+            "price": 2.50,
+            "categoryId": 0,
+            "gift": "Free"
+
+        },
+        {
+            "id": 6,
+            "imageUrl": "images/allens-freckles.png",
+            "title": "Allens Freckles",
+            "price": 3.50,
+            "categoryId": 1,
+            "gift": "Free"
+
+        },
+        {
+            "id": 7,
+            "imageUrl": "images/chupa-chups.png",
+            "title": "Chupa Chups",
+            "price": 2.50,
+            "categoryId": 1,
+            "gift": "Free"
+
+        },
+        {
+            "id": 8,
+            "imageUrl": "images/fizzy-fruits-rainbow.png",
+            "title": "Fizzy Fruits Rainbow",
+            "price": 1.50,
+            "categoryId": 1,
+            "gift": "Free"
+
+        },
+        {
+            "id": 9,
+            "imageUrl": "images/jellybeans.png",
+            "title": "Jellybeans",
+            "price": 1.50,
+            "categoryId": 1,
+            "gift": "Free"
+
+        },
+        {
+            "id": 10,
+            "imageUrl": "images/m&m.png",
+            "title": "M & Ms",
+            "price": 2.50,
+            "categoryId": 1,
+            "gift": "Free"
+
+        },
+        {
+            "id": 11,
+            "imageUrl": "images/party-mix-lollies.png",
+            "title": "Party Mix Lollies",
+            "price": 2.50,
+            "categoryId": 1,
+            "gift": "Free"
+
+        }
+    ]
+}

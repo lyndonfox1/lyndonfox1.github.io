@@ -1,0 +1,245 @@
+body {
+    /* background-color: blanchedalmond; */
+    background-image: url(/images/daniel-hjalmarsson-376627-unsplash.jpg)
+}
+
+.main-heading {
+    font-family: 'Love Ya Like A Sister', cursive;
+    /* font-family: 'Eater', cursive; */
+    font-size: 55px;
+    color: rgb(202, 0, 0);
+    box-shadow: 5px 10px;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(204, 24, 0);
+}
+
+h2 {
+    font-size: 22px;
+    color: rgb(204, 24, 0);
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(202, 0, 0);
+}
+
+.select {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.quote-button {
+    border: 2px solid saddlebrown;
+    color: rgb(87, 73, 53);
+    background-color: rgb(255, 245, 201);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#avEventDropdown {
+    font-size: 18px;
+}
+
+/* section {
+    text-align: justify;
+    margin: 0 auto;
+    width: 30em;
+    margin-left: 450px;
+} */
+
+/* links */
+.main-nav li {
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+.main-nav a {
+    color: rgb(252, 90, 90);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+ul {
+    text-align: center;
+}
+
+.main-nav a.active {
+    text-decoration: underline;
+
+}
+
+/* screens */
+.content .screen {
+    display: none;
+
+}
+
+.screen.active {
+    display: block;
+    text-align: center;
+}
+
+.category-list {
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(107, 240, 74);
+}
+
+.quote-box {
+    background-color: rgba(255, 212, 147, 0.8);
+    margin: 0 auto;
+    width: 600px;
+    padding: 30px 0;
+}
+
+p {
+    font-size: 22px;
+    color: rgb(252, 90, 90);
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 16px;
+    margin: 8px;
+    color: rgb(252, 90, 90);
+    background-color: rgb(255, 245, 201);
+    border: 2px solid rgb(252, 90, 90);
+}
+
+select {
+    margin-bottom: 15px;
+}
+
+input {
+    margin: 5px;
+    /* padding: 10px 30px; */
+    border: 2px solid saddlebrown;
+    color: rgb(87, 73, 53);
+    background-color: rgb(255, 245, 201);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+
+textarea {
+    color: #717171;
+}
+
+select {
+    font-size: 15px;
+}
+
+/* .quote-box {
+    width: 500px;
+    color: darkred;
+} */
+
+
+/* animation */
+
+.sweet-list li {
+    transition: all .2s;
+    outline-offset: 1rem;
+}
+
+.sweet-list li {
+    transition: all .2s;
+    outline-offset: 1rem;
+}
+
+.sweet-list li:hover {
+    outline: .5rem solid rgb(202, 0, 0);
+    transform: scale(1.10);
+    transition: transform 0.5s;
+}
+
+.sweet-list li:hover {
+    outline: .5rem solid rgb(202, 0, 0);
+    transform: scale(1.10);
+    transition: transform 0.5s;
+}
+
+
+
+/* list items */
+
+.image-list-small {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.image-list-small li {
+    display: inline-block;
+    width: 370px;
+    margin: 0 12px 30px;
+    background-color: rgb(189, 170, 143);
+}
+
+
+/* Photo */
+
+.image-list-small li>a {
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 137px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+}
+
+.image-list-small .details {
+    margin-top: 13px;
+}
+
+
+/* Title */
+
+.image-list-small .details h3 {
+    display: block;
+    font-size: 18px;
+    margin: 0 0 3px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image-list-small .details h3 a {
+    color: #303030;
+    text-decoration: none;
+}
+
+.image-list-small .details .image-author {
+    display: block;
+    color: #272727;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
